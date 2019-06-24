@@ -2,7 +2,7 @@
 .background{
   background: url("images/Gymnos background.jpg") no-repeat;
   background-size: cover;
-  padding-bottom: 280px;
+  padding-bottom: 260px;
 }
 .container{
   display: flex;
@@ -14,6 +14,11 @@
 
 .indent{
   padding-left: 120px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
 }
 
 hr {
@@ -68,9 +73,6 @@ ol.number-bulet > li:before {
   content: counter(li-counter);
   counter-increment: li-counter;
 }
-
-
-
 
 
 
