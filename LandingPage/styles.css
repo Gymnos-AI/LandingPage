@@ -44,3 +44,23 @@ ol.number-bulet > li:before {
   content: counter(li-counter);
   counter-increment: li-counter;
 }
+
+
+
+
+
+
+
+.contact {
+  margin-top: 450px;
+}
+
+
+.words {
+  width: 400px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+}
