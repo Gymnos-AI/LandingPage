@@ -1,4 +1,9 @@
 
+.background{
+  background: url("images/Gymnos background.jpg") no-repeat;
+  background-size: cover;
+  padding-bottom: 280px;
+}
 .container{
   display: flex;
   justify-content: center;
@@ -16,7 +21,7 @@ hr {
   clear: both;
   display: block;
   width: 96%;
-  background-color: darkgray;
+  background-color: black;
   height: 1px;
   margin-bottom: 0;
 }
