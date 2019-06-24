@@ -22,7 +22,7 @@
   }
 
   .indent{
-    padding-left: 120px;
+    padding-left: 120em;
   }
 
   .img {
@@ -41,7 +41,7 @@
     display: block;
     width: 96%;
     background-color: black;
-    height: 1px;
+    height: 1em;
     margin-bottom: 0;
   }
 
@@ -67,7 +67,7 @@
 
   ol.number-bulet > li{
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 20em;
     padding-left: 0.5em;
     min-height: 3em;
   }
@@ -90,18 +90,18 @@
 
 
   .contact {
-    padding-top: 82px;
+    padding-top: 82em;
   }
 
 
   .words {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 600px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    width: 600em;
+    padding-bottom: 30em;
+    padding-top: 30em;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 20px;
+    font-size: 20em;
   }
 
 }
