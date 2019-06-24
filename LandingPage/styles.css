@@ -78,12 +78,13 @@ ol.number-bulet > li:before {
 
 
 .contact {
-  padding-top: 350px;
+  padding-top: 210px;
 }
 
 
 .words {
-  width: 400px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 600px;
   padding-bottom: 30px;
   padding-top: 30px;
   text-align: justify;
