@@ -1,8 +1,14 @@
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
 
 .background{
   background: url("images/Gymnos background.jpg") no-repeat;
   background-size: cover;
-  padding-bottom: 243px;
+  display: block;
+  overflow: auto;
 }
 .container{
   display: flex;
