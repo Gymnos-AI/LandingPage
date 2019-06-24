@@ -2,7 +2,7 @@
 .background{
   background: url("images/Gymnos background.jpg") no-repeat;
   background-size: cover;
-  padding-bottom: 260px;
+  padding-bottom: 243px;
 }
 .container{
   display: flex;
@@ -80,7 +80,7 @@ ol.number-bulet > li:before {
 
 
 .contact {
-  padding-top: 210px;
+  padding-top: 82px;
 }
 
 
