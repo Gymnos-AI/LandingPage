@@ -8,7 +8,26 @@
 }
 
 .indent{
-  padding-left: 180px;
+  padding-left: 140px;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: darkgray;
+  height: 1px;
+  margin-bottom: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
 .col{
