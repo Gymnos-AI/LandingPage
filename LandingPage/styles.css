@@ -1,16 +1,22 @@
 
 .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
 }
 
 .indent{
-  padding-left: 20px;
+  padding-left: 180px;
+}
+
+.col{
+  display: flex;
+  flex-direction: row;
 }
 
 ol.number-bulet {
-  list-style-type: none;
-  list-style-type: decimal;
-  margin: 0;
   margin-left: 4em;
   padding: 0;
   counter-reset: li-counter;
