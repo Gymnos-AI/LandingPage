@@ -10,8 +10,6 @@
         crossorigin="anonymous">
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, intial-scale=1.0">
-  <meta name="Email" content="contact form">
   <title>GYMNOS</title>
 
   <link rel="stylesheet" type="text/css" href="styles.css">
@@ -41,27 +39,19 @@
             gym near you. If you'd like us to send you a reminder when we're
             ready, just put your email in below:
         </small>
-
-
- 
-    <div class="gform">
-
-        <form class="form-inline" method="POST" data-email="james.peralta@ucalgary.ca"
-        action= "https://script.google.com/macros/s/AKfycbyfLk3XIURZWFeBMzFXI3DkqZhqHNqYhKvfdwfhN1pruxunU2c/exec">
+        
+        <form class="form-inline" 
+        action= "mailto:natu.o.h@hotmail.com?subject=myform_submission" enctype="text/plain" 
+        onsubmit="location.href='index.html';" >
 
                 <div class="form-group mx-sm-3 mb-2">
-                    <input for="email" name="email" value="" type="email" class="form-control" id="email" require placeholder="Your Email">
-                    <span class="email-invalid" style="display:none">
-                            Please enter a valid email address</span>
+                    <label for="inputEmail" class="sr-only">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
                 </div>
 
                 <button type="submit" value="submit" class="btn btn-primary mb-2">Submit</button>
-
         </form>
 
-        
-
-     
     </div>
 
     <div class="footer" style="color: black">
@@ -70,8 +60,5 @@
     </div>
 
 </div>
-
-<script data-cfasync="false" type="text/javascript"
-src="form-submission-handler.js"></script>
 
 </body>
