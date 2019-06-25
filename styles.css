@@ -93,6 +93,7 @@
     min-height: 3em;
   }
   ol.number-bulet > li:before {
+    display: inline-block;
     position: absolute;
     top: 0;
     left: -1.33em;
@@ -148,7 +149,100 @@
     background-size: cover;
     display: block;
     overflow: auto;
+<<<<<<< HEAD
     height: 100%;
+=======
+    min-height: 100vh;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+
+  .img {
+    width: 10em;
+    margin: auto;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: black;
+    height: 1px;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  ol.number-bulet {
+    margin-left: 2em;
+    padding: 0;
+    counter-reset: li-counter;
+  }
+
+  ol.number-bulet > li{
+    position: relative;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+    min-height: 3em;
+  }
+  ol.number-bulet > li:before {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: -1.33em;
+    width: 1.3em;
+    height: 1.3em;
+    font-size: 2.5em;
+    line-height: 0.85;
+    text-align: center;
+    color: #fff;
+    border: 0.2em solid #000;
+    border-radius: 50%;
+    background-color: #000;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+  }
+
+  ol.number-bulet h3{
+    font-size: 1.3em;
+  }
+
+  .contact {
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  .words {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 20em;
+    font-size: 1.2em;
+>>>>>>> 7174105a9a9ab3baa7527a6eb6d76cfcce9599c6
   }
 
 
