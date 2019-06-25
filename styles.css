@@ -147,7 +147,6 @@
     background-size: cover;
     display: block;
     overflow: auto;
-    height: 100vh;
   }
   .container{
     display: flex;
