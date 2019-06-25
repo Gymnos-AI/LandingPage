@@ -87,6 +87,7 @@
     min-height: 3em;
   }
   ol.number-bulet > li:before {
+    display: inline-block;
     position: absolute;
     top: 0;
     left: -1.33em;
@@ -207,6 +208,8 @@
   }
   ol.number-bulet > li:before {
     position: absolute;
+    display: block;
+    float: none;
     top: 0;
     left: -1.33em;
     width: 1.3em;
