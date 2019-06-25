@@ -122,18 +122,24 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
   body {
-    height: auto;
     margin: 0;
     padding: 0;
+    all: unset;
   }
 
   h1{
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .main_text{
     display: flex;
-    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1%;
+  }
+
+  .indent{
+    padding-left: 0;
   }
 
   .background{
@@ -153,11 +159,18 @@
 
   .img {
     width: 10em;
+    margin: auto;
   }
 
   .row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+
+  .pricing{
+    display: flex;
+    justify-content: center;
+
   }
 
   hr {
@@ -166,12 +179,12 @@
     display: block;
     width: 96%;
     background-color: black;
-    height: 1em;
+    height: 1px;
     margin-bottom: 0;
   }
 
   .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -180,14 +193,14 @@
   }
 
   ol.number-bulet {
-    margin-left: 4em;
+    margin-left: 2em;
     padding: 0;
     counter-reset: li-counter;
   }
 
   ol.number-bulet > li{
     position: relative;
-    margin-bottom: 20em;
+    margin-bottom: 1em;
     padding-left: 0.5em;
     min-height: 3em;
   }
@@ -208,16 +221,17 @@
     counter-increment: li-counter;
   }
 
-
   .contact {
-    padding-top: 82em;
+    padding-top: 1em;
+    text-align: center;
   }
 
-
   .words {
+    margin-top: 4.5em;
+    margin-bottom: 5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 20em;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
 }
