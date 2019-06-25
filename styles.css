@@ -13,6 +13,10 @@
     flex-direction: column;
   }
 
+  .pricing{
+    margin-top: 3em;
+  }
+
   .content {
     flex: 1 0 auto;
   }
