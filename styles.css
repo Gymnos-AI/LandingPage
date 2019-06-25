@@ -16,6 +16,10 @@
     margin-top: 0.7em;
   }
 
+  .index{
+    margin-bottom: 6em;
+  }
+
   .background{
     background: url("images/Gymnos background.jpg") no-repeat;
     background-size: cover;
