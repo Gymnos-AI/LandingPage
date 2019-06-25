@@ -140,6 +140,14 @@
     flex-direction: column;
   }
 
+  .background{
+    background: url("images/Gymnos background.jpg") no-repeat;
+    background-size: cover;
+    display: block;
+    overflow: auto;
+    height: 100vh;
+  }
+
   
   .content {
     flex: 1 0 auto;
@@ -167,14 +175,6 @@
     padding-top: 10%;
   }
 
-  .background{
-    background: url("images/Gymnos background.jpg") no-repeat;
-    background-size: cover;
-    display: block;
-    overflow: auto;
-    height: 100%;
-  }
-
   .container{
     display: flex;
     justify-content: center;
@@ -198,7 +198,7 @@
     display: block;
     width: 96%;
     background-color: black;
-    height: 1px;
+    height: 0.0625em;
     margin-bottom: 0;
   }
 
@@ -245,12 +245,12 @@
 
   .words {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 600px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    width: 37.5em;
+    padding-bottom: 1.875em;
+    padding-top: 1.875em;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
 
