@@ -39,6 +39,10 @@
     padding-top: 10%;
   }
 
+  .pricing{
+    margin-top: 4em;
+  }
+
   .background{
     background: url("images/Gymnos background.jpg") no-repeat;
     background-size: cover;
@@ -203,6 +207,7 @@
   }
 
   .footer {
+    display: none;
     position: fixed;
     left: 0;
     bottom: 0;
