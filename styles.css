@@ -104,6 +104,10 @@
     font-size: 20em;
   }
 
+  .btn btn-primary mb-2 {
+    padding-left: 200px;
+  }
+
 }
 
 @media (min-width: 700px), handheld and (orientation: landscape) {
