@@ -2,22 +2,37 @@
   /* rules for devices with either 700px and higher resolution,
      OR handheld and in landscape orientation */
 
-  body {
-    height: auto;
+  html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    flex: 1 0 auto;
+  }
+
+  .footer {
+    flex-shrink: 0;
   }
 
   .main_text{
-    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
   }
 
   .main_text h1{
     margin-top: 0.7em;
   }
 
-  .index{
-    margin-bottom: 6em;
+  .contact {
+    padding-top: 5%;
   }
 
   .background{
@@ -27,24 +42,20 @@
     overflow: auto;
     height: 100vh;
   }
+
   .container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-  }
-
-  .indent{
-    padding-left: 120px;
   }
 
   .img {
     width: 10em;
-    height: 0%;
+    height: 0;
   }
 
-  .row{
+  .col{
     display: flex;
     flex-direction: row;
   }
@@ -60,17 +71,12 @@
   }
 
   .footer {
-    position: fixed;
+    flex-shrink: 0;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
-  }
-
-  .col{
-    display: flex;
-    flex-direction: row;
   }
 
   ol.number-bulet {
@@ -103,12 +109,6 @@
     counter-increment: li-counter;
   }
 
-
-  .contact {
-    padding-top: 82px;
-  }
-
-
   .words {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 600px;
@@ -118,29 +118,29 @@
     text-justify: inter-word;
     font-size: 20px;
   }
+
 }
 
 @media only screen and (max-device-width: 480px) {
   /* list rules for devices with horizontal resolution up to 480px */
-  body {
+
+  html, body {
     margin: 0;
     padding: 0;
-    all: unset;
+    height: 100%;
   }
 
-  h1{
-    font-size: 2rem;
-  }
-
-  .main_text{
+  body {
     display: flex;
-    text-align: center;
-    justify-content: center;
-    padding-top: 1%;
+    flex-direction: column;
   }
 
-  .indent{
-    padding-left: 0;
+  .content {
+    flex: 1 0 auto;
+  }
+
+  .footer {
+    flex-shrink: 0;
   }
 
   .background{
@@ -148,95 +148,7 @@
     background-size: cover;
     display: block;
     overflow: auto;
-    min-height: 100vh;
-  }
-  .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 1rem;
-  }
-
-  .img {
-    width: 10em;
-    margin: auto;
-  }
-
-  .row{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .pricing{
-    display: flex;
-    justify-content: center;
-
-  }
-
-  hr {
-    border: 0;
-    clear: both;
-    display: block;
-    width: 96%;
-    background-color: black;
-    height: 1px;
-    margin-bottom: 0;
-  }
-
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-  }
-
-  ol.number-bulet {
-    margin-left: 2em;
-    padding: 0;
-    counter-reset: li-counter;
-  }
-
-  ol.number-bulet > li{
-    position: relative;
-    margin-bottom: 1em;
-    padding-left: 0.5em;
-    min-height: 3em;
-  }
-  ol.number-bulet > li:before {
-    position: absolute;
-    top: 0;
-    left: -1.33em;
-    width: 1.3em;
-    height: 1.3em;
-    font-size: 2.5em;
-    line-height: 0.85;
-    text-align: center;
-    color: #f5f5f5;
-    border: 5px solid #000;
-    border-radius: 50%;
-    background-color: #000;
-    content: counter(li-counter);
-    counter-increment: li-counter;
-  }
-
-  ol.number-bulet h3{
-    font-size: 1.3em;
-  }
-
-  .contact {
-    padding-top: 1em;
-    text-align: center;
-  }
-
-  .words {
-    margin-top: 4em;
-    margin-bottom: 4em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 20em;
-    font-size: 1.2em;
+    height: 100%;
   }
 
 
