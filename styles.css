@@ -208,7 +208,7 @@
   }
   ol.number-bulet > li:before {
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: 0;
     left: -1.33em;
     width: 1.3em;
@@ -216,7 +216,7 @@
     font-size: 2.5em;
     line-height: 0.85;
     text-align: center;
-    color: #f5f5f5;
+    color: #fff;
     border: 0.2em solid #000;
     border-radius: 50%;
     background-color: #000;
