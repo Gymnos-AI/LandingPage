@@ -13,10 +13,6 @@
     flex-direction: column;
   }
 
-  .pricing{
-    margin-top: 3em;
-  }
-
   .content {
     flex: 1 0 auto;
   }
@@ -206,6 +202,12 @@
     margin-bottom: 0;
   }
 
+  .footer {
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center; 
+  }
 
   ol.number-bulet h3 {
     font-size:1.25em;
