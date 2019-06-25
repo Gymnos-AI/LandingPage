@@ -40,14 +40,16 @@
             ready, just put your email in below:
         </small>
         
-        <form class="form-inline" action="MAILTO:natu.o.h@hotmail.com" method="POST" enctype="text/plain">
+        <form class="form-inline" 
+        action= "mailto:natu.o.h@hotmail.com?subject=myform_submission" enctype="text/plain" 
+        onsubmit="location.href='index.html';" >
 
                 <div class="form-group mx-sm-3 mb-2">
                     <label for="inputEmail" class="sr-only">Your Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your Email" href = "mailto: natu.o.h@hotmail.com">
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
                 </div>
 
-                <button type="submit" value="send" class="btn btn-primary mb-2">Submit</button>
+                <button type="submit" value="submit" class="btn btn-primary mb-2">Submit</button>
         </form>
 
     </div>
