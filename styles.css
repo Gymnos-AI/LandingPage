@@ -21,6 +21,10 @@
     flex-shrink: 0;
   }
 
+  .indent{
+    padding-left: 5em;
+  }
+
   .main_text{
     display: flex;
     flex-direction: row;
@@ -32,7 +36,7 @@
   }
 
   .contact {
-    padding-top: 5%;
+    padding-top: 10%;
   }
 
   .background{
