@@ -40,13 +40,12 @@
             ready, just put your email in below:
         </small>
         
-        <form class="form-inline" 
-        action= "mailto:natu.o.h@hotmail.com?subject=myform_submission" enctype="text/plain" 
-        onsubmit="location.href='index.html';" >
+        <form class="form-inline" method="POST" action= "https://formspree.io/jamesperalta35@gmail.com">
 
                 <div class="form-group mx-sm-3 mb-2">
                     <label for="inputEmail" class="sr-only">Your Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Your Email">
+                    <input type="hidden" name="_next" value="https://gymnosinc.ca/contact.html" />
                 </div>
 
                 <button type="submit" value="submit" class="btn btn-primary mb-2">Submit</button>
