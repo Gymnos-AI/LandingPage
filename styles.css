@@ -207,9 +207,8 @@
     min-height: 3em;
   }
   ol.number-bulet > li:before {
+    display: inline-block;
     position: absolute;
-    display: block;
-    float: none;
     top: 0;
     left: -1.33em;
     width: 1.3em;
@@ -218,7 +217,7 @@
     line-height: 0.85;
     text-align: center;
     color: #f5f5f5;
-    border: 5px solid #000;
+    border: 0.2em solid #000;
     border-radius: 50%;
     background-color: #000;
     content: counter(li-counter);
