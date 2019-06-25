@@ -146,6 +146,8 @@
     display: block;
     overflow: auto;
     height: 100vh;
+    position: fixed;
+    background-position: absolute; 
   }
 
   
@@ -157,9 +159,6 @@
     flex-shrink: 0;
   }
 
-  .indent{
-    padding-left: 5em;
-  }
 
   .main_text{
     display: flex;
