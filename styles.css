@@ -191,7 +191,7 @@
 
   .col {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   hr {
@@ -221,7 +221,6 @@
 
   ol.number-bulet {
     margin-left: 1em;
-    padding: 0;
     counter-reset: li-counter;
     position: relative;
   }
@@ -250,7 +249,7 @@
     counter-increment: li-counter;
   }
 
-  
+
 
   .words {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -260,6 +259,10 @@
     text-align: justify;
     text-justify: inter-word;
     font-size: 1em;
+  }
+
+  .pricing {
+    text-align: center;
   }
 
 
