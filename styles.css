@@ -211,11 +211,11 @@
     bottom: 0;
     width: 100%;
     color: white;
-    text-align: center;
+    text-align: center; 
   }
 
   ol.number-bulet h3 {
-    font-size:1em;
+    font-size:1.25em;
   }
 
 
