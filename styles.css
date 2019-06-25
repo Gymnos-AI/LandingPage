@@ -220,6 +220,10 @@
     counter-increment: li-counter;
   }
 
+  ol.number-bulet h3{
+    font-size: 1.3em;
+  }
+
   .contact {
     padding-top: 1em;
     text-align: center;
