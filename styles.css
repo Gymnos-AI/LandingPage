@@ -120,7 +120,7 @@
   }
 
   .words {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 600px;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -255,10 +255,8 @@
     counter-increment: li-counter;
   }
 
-
-
   .words {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 18.75em;
     padding-bottom: 1.875em;
     padding-top: 1.875em;
