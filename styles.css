@@ -137,6 +137,9 @@
   html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 
   body {
@@ -265,8 +268,10 @@
 
   .pricing {
     text-align: center;
-    position: relative;
   }
 
+  .btn btn-success btn-lg {
+    position: relative;
+  }
 
 }
