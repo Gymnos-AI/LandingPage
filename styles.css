@@ -153,6 +153,7 @@
     background-size: cover;
     display: block;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     height: 100vh;
   }
 
@@ -210,7 +211,6 @@
 
   .footer {
     display: none;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
