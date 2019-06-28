@@ -154,9 +154,6 @@
     display: block;
     overflow-y: scroll;
     height: 100vh;
-
-    position: fixed;
-    background-position: absolute; 
   }
 
   
