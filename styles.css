@@ -13,14 +13,6 @@
     flex-direction: column;
   }
 
-  .header{
-    margin-top: 2em;
-  }
-
-  .header h1{
-    margin-top: 0.7em;
-  }
-
   .content {
     flex: 1 0 auto;
   }
@@ -147,6 +139,10 @@
     margin: 0;
     padding: 0;
     height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+    overflow: auto;
   }
 
   body {
@@ -163,26 +159,24 @@
     height: 100vh;
   }
 
-  .container h1{
-    font-size: 2em;
-
-  }
-
-  .header{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header_text{
-    font-size: 0.75em;
-  }
-
+  
   .content {
     flex: 1 0 auto;
   }
 
   .footer {
     flex-shrink: 0;
+  }
+
+
+  .main_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main_text h1 {
+    font-size: 1.8em;
   }
 
   .contact {
@@ -194,7 +188,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100%;
   }
 
   .img {
@@ -233,6 +226,7 @@
 
 
   ol.number-bulet {
+    margin-left: 1em;
     counter-reset: li-counter;
     position: relative;
   }
@@ -240,14 +234,14 @@
   ol.number-bulet > li{
     position: relative;
     margin-bottom: 1.250em;
+    padding-left: 0.5em;
     min-height: 3em;
-    list-style: none;
   }
   ol.number-bulet > li:before {
     display: inline-block;
     position: absolute;
     top: 0;
-    left: -1.93em;
+    left: -1.33em;
     width: 1.3em;
     height: 1.3em;
     font-size: 2em;
