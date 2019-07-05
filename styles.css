@@ -148,6 +148,11 @@
     padding: 0;
   }
 
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
   .background{
     background: url("images/Gymnos background.jpg") no-repeat;
     background-size: cover;
@@ -165,11 +170,14 @@
   .header{
     display: flex;
     flex-direction: column;
-    padding-top: 0;
   }
 
   .header_text{
     font-size: 0.75em;
+  }
+
+  .content {
+    flex: 1 0 auto;
   }
 
   .footer {
